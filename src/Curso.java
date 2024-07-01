@@ -1,10 +1,11 @@
 public class Curso {
+
     private int id;
     private String nombre;
     private String descripcion;
     private int numeroCreditos;
     private String version;
-
+        //constructor
     public Curso(int id, String nombre, String descripcion, int numeroCreditos, String version) {
         this.id = id;
         this.nombre = nombre;
@@ -13,6 +14,7 @@ public class Curso {
         this.version = version;
     }
 
+    //metodos geters y seters
     public int getId() {
         return id;
     }

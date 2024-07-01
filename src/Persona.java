@@ -1,4 +1,6 @@
+//clase padre
 public class Persona {
+    //encapsulamiento con la palabra private
     private int id;
     private String nombre;
     private String apellido;
